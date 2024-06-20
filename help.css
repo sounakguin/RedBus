@@ -1,0 +1,396 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+#help
+{
+    height: 900px;
+    width: auto;
+    
+   
+}
+#help_c1
+{
+    height: 70px;
+    width: auto;
+ 
+    display: flex;
+    background-color: #d84f57;
+}
+#help_c2
+{
+    height: 60px;
+    width: 95px;
+
+    background-image: url(ok8.png);
+    background-repeat: no-repeat;
+    background-size: 95px 60px;
+    margin-left: 120px;
+}
+#help_c3
+{
+    height: 68px;
+    width: 105px;
+    border: 3px solid rgb(5, 5, 5); 
+    margin-left: 12px; 
+    text-align: center;
+    padding-top: 23px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+}
+#help_c4
+{
+    height: 68px;
+    width: 105px;
+    margin-left: 12px; 
+    text-align: center;
+    padding-top: 21px;
+    color: white;
+    font-size: 15px;
+}
+#help_c5
+{
+    height: 68px;
+    width: 55px;
+    margin-left: 591px; 
+    text-align: center;
+    padding-top: 21px;
+    color: white;
+    font-size: 12px;
+    
+}
+#help_c6
+{
+    height: 68px;
+    width: 115px; 
+    padding-top: 21px;
+    color: white;
+    font-size: 12px;
+    
+}
+.help_c7
+{
+    height: 68px;
+    width: 13px; 
+    padding-top: 21px;
+    color: white;
+    font-size: 12px;
+
+    font-size: 15px;
+}
+#help_c8
+{
+    height: 50px;
+    width: 50px; 
+ 
+    background-image: url(ok9.png);
+    background-size: 50px 50px;
+    mix-blend-mode: color-burn;
+    margin-top: 6px;
+    background-repeat: no-repeat;
+}
+#help_c9
+{
+    display: flex;
+    height: 800px;
+    width: auto;
+    background-color: #d84f57;
+  
+}
+#help_c10
+{
+    height: 700px;
+    width: 380px;
+   
+    margin-top: 40px;
+    margin-left: 100px;
+    background-color: #f3f3f3;
+    overflow-y: scroll;
+}
+.help_c11
+{
+    height: 155px;
+    width: 350px;
+   
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+
+ 
+}
+.help_c12
+{
+   height: 30px;
+   width: auto;
+   display: flex;
+  
+   color: rgb(216, 78, 85);
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   margin-top: 15px;
+}
+.help_c13
+{
+   height: 30px;
+   width: auto;
+   display: flex;
+  
+   color: rgb(216, 78, 85);
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 17px;
+   margin-left: 13px;
+}
+.help_c14
+{
+    height: 30px;
+    width: auto;
+    display: flex;
+   
+    color: rgb(216, 78, 85);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 160px;
+}
+.help_c15
+{
+    height: 30px;
+    width: auto;
+    display: flex;
+   
+    color: rgb(216, 78, 85);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    margin-left: 1.5px;
+}
+.help_c16
+{
+    height: 90px;
+    width: auto;
+   
+    margin-top: 5px;
+    display: flex;
+}
+.help_c17
+{
+    background-image: url(ok10.png);
+    background-repeat: no-repeat;
+    height: 65px;
+    width: 65px;
+   
+    background-size: 65px 65px;
+    margin-top: 15px;
+    margin-left: 22px;
+}
+.help_c18
+{
+    height: 90px;
+    width: auto;
+   
+    display: flex;
+    flex-direction: column;
+}
+.help_c19
+{
+    height: 60px;
+    width: 230px;
+  
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.help_c20
+{
+   
+    color: #1034d9;
+    margin-left: 15px;
+}
+.help_c21
+{
+    padding-top: 13px;
+    padding-left: 22px;
+}
+.help_c22
+{
+    height: 100px;
+    width: 350px;
+ 
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+    
+}
+.help_c23
+{
+    height: 35px;
+    width: 50px;
+  
+    background-image: url(ok13.png);
+    background-repeat: no-repeat;
+    background-size: 50px 35px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.help_c24
+{
+    height: 40px;
+    width: 58px;
+ 
+    background-image: url(ok12.webp);
+    background-repeat: no-repeat;
+    background-size: 58px 40px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.help_c25
+{
+    height: 40px;
+    width: 58px;
+    
+    background-image: url(ok1.png);
+    background-repeat: no-repeat;
+    background-size: 58px 34px;
+    margin-left: 40px;
+    margin-top: 17px;
+}
+.help_c26
+{
+    display: flex;
+}
+.help_c27
+{
+    height: 25px;
+    width: auto;
+
+    display: flex;
+    font-size: 13px;
+    margin-top: 5px;
+}
+.help_c28
+{
+    height: 25px;
+    width: 70px;
+   
+    margin-left: 32px;
+}
+.help_c29
+{
+    height: 30px;
+    width: 50px;
+   
+    margin-left: 32px;
+    text-align: center;
+}
+.help_c30
+{
+    height: 30px;
+    width: 50px;
+  
+    margin-left: 52px;
+    text-align: center;
+}
+.help_c31
+{
+    padding-top: 13px;
+    padding-left: 22px;
+}
+b{
+    font-size: 18px;
+}
+.help_c32
+{
+    height: 570px;
+    width: 347px;
+  
+    margin-top: 12px;
+    margin-left: 8px;
+}
+.help_c33
+{
+    height: 100px;
+    width: 345px;
+   
+    background-color: white;
+    display: flex;
+}
+.help_c34
+{
+    height: 27px;
+    width: 24px;
+    background-image: url(ok14.png);
+    background-repeat: no-repeat;
+    background-size: 24px 27px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.help_c35
+{
+    height: 27px;
+    width: 185px;
+    margin-left: 18px;
+    margin-top: 20px;
+}
+.help_c36
+{
+    height: 30px;
+    width: 30px;
+    margin-top: 32px;
+    margin-left: 38px;
+    font-size: 20px;
+}
+.help_c37
+{
+    height: 580px;
+    width: 1000px;
+   
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.help_c38
+{
+    height: 70px;
+    width: auto;
+   
+    font-size: 44px;
+    font-weight: 900;
+    color: white;
+    margin-top: 20px;
+    padding-left: 185px;
+    font-family: Montserrat;
+}
+.help_c39
+{
+    height: 300px;
+    width: 550px;
+    background-image: url(ok20.png);
+    background-repeat: no-repeat;
+    background-size: 550px 300px;
+    margin-left: 178px;
+    margin-top: 20px;
+}
+.help_c40
+{
+    height: 70px;
+    width: auto;
+ 
+    font-size: 32px;
+    font-weight: 900;
+    color: white;
+    margin-top: 30px;
+    padding-left: 200px;
+    font-family: Montserrat;
+}

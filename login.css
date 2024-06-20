@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  body {
+    background-color: #d84f57;
+  }
+  
+  #login {
+    height: 500px;
+    width: 700px;
+    border: 5px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    box-shadow: 0px 0px 12px black;
+    border-radius: 5px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #login {
+      width: 90%;
+    }
+  }
+  
+  #login_c1 {
+    height: 495px;
+    width: 350px;
+    background-image: url(ok21.png);
+    background-size: 350px 490px;
+    background-repeat: no-repeat;
+    background-color: white;
+  }
+  
+  #login_c2 {
+    height: 495px;
+    width: 378px;
+    background-color: white;
+  }
+  
+  #login_c3 {
+    height: 60px;
+    width: 80px;
+    border: 2px solid white;
+    background-image: url(ok13.png);
+    background-repeat: no-repeat;
+    background-size: 65px 45px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  #login_c4 {
+    height: 25px;
+    width: auto;
+    font-size: 20px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    color: #d84e55;
+    padding-left: 15px;
+    font-family: Montserrat;
+  }
+  
+  #login_c5 {
+    height: 25px;
+    width: auto;
+    font-size: 20px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    color: #d84e55;
+    padding-left: 15px;
+    font-family: Montserrat;
+  }
+  
+  #box {
+    display: flex;
+    height: 50px;
+    width: 314px;
+    margin-top: 25px;
+    margin-left: 16px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #box {
+      width: 80%;
+    }
+  }
+  
+  #login_c6 {
+    color: #d84e55;
+    padding-left: 73px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Montserrat;
+  }
+  
+  #login_c7 {
+    height: 80px;
+    width: 200px;
+    margin: 5px auto;
+  }
+  
+  #Alpha {
+    outline: none;
+    height: 30px;
+    width: 200px;
+    padding-left: 5px;
+    border-radius: 10px;
+  }
+  
+  .forgot {
+    font-size: 11px;
+    margin-left: 82px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .forgot {
+      margin-left: 40%;
+    }
+  }
+  
+  .rocky {
+    display: flex;
+    margin-left: 82px;
+    margin-top: 15px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .rocky {
+      margin-left: 30%;
+    }
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #0b84f6;
+    color: #ffffff;
+  }

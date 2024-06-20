@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loginOTP.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .fa-eye-slash {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="size">
+        <div class="size1">
+
+        </div>
+        <div class="size2">
+            <div class="size3"></div>
+            <div class="size4">
+                Sign in to avail exciting discounts and cashbacks!!
+            </div>
+            <br><br>
+            <div class="Register"></div>
+            <br>
+            <div>
+               <input type="text" placeholder="Enter your name" class="R_design" required autofocus>
+            </div>
+            <div>
+                 <input type="email" placeholder="Enter your email" class="R_design" required autofocus>
+            </div>
+            <div>
+               <input type="date" class="R_design">
+            </div>
+            <div>
+                <input type="number" placeholder="Phone number" class="R_design" required autofocus>
+            </div>
+            
+            <div class="visulizer">
+                <input type="password" id="password" name="password" required placeholder="Password" autofocus>
+                <i class="fa-solid fa-eye" id="togglePassword" style="color: #3a2727;"></i>
+                <i class="fa-solid fa-eye-slash" id="togglePasswordSlash" style="color: #3a2727;"></i>
+            </div>
+          
+            <div class="password-container">
+                <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Confirm Password" required autofocus > 
+            </div>
+
+            <br>
+            <div class="size11">
+               <a href="cab.html" >CREATE ACCOUNT</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const passwordInput = document.getElementById('password');
+        const togglePassword = document.getElementById('togglePassword');
+        const togglePasswordSlash = document.getElementById('togglePasswordSlash');
+
+        togglePassword.addEventListener('click', function() {
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                togglePassword.style.display = 'none';
+                togglePasswordSlash.style.display = 'inline-block';
+            } else {
+                passwordInput.type = 'password';
+                togglePassword.style.display = 'inline-block';
+                togglePasswordSlash.style.display = 'none';
+            }
+        });
+
+        togglePasswordSlash.addEventListener('click', function() {
+            togglePassword.click();
+        });
+    </script>
+</body>
+</html>
